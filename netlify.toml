@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  # publish = ".next" # WARNING: Do NOT uncomment this. This exact line causes the "404 Page Not Found" error!
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
